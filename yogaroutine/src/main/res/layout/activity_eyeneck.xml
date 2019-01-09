@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView android:layout_height="fill_parent"
     android:layout_width="fill_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:htext="http://schemas.android.com/apk/res-auto">
     <LinearLayout
@@ -14,6 +13,7 @@
         android:layout_height="200dp"
         android:id="@+id/image_detail"
         android:layout_gravity="center"
+        android:src="@drawable/eye4"
         android:background="@drawable/eye4"
         />
         <pl.droidsonroids.gif.GifImageView
@@ -21,6 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center"
+            android:src="@drawable/eye2"
             android:background="@drawable/eye2"
             />
         <pl.droidsonroids.gif.GifImageView
@@ -28,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center"
+            android:src="@drawable/eye3"
             android:background="@drawable/eye3"
             />
         <pl.droidsonroids.gif.GifImageView
@@ -35,6 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center"
+            android:src="@drawable/eye"
             android:background="@drawable/eye"
             />
         <pl.droidsonroids.gif.GifImageView
@@ -42,6 +45,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center"
+            android:src="@drawable/neck"
             android:background="@drawable/neck"
             />
 
@@ -50,6 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center"
+            android:src="@drawable/neck"
             android:background="@drawable/neck2"
             />
 
@@ -58,9 +63,8 @@
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_gravity="center"
+            android:src="@drawable/neck3"
             android:background="@drawable/neck3"
             />
     </LinearLayout>
-
-
 </ScrollView>

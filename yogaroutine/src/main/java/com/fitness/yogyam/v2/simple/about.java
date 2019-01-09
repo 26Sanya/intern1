@@ -1,4 +1,4 @@
-package com.sanya.yogyam.v2.simple;
+package com.fitness.yogyam.v2.simple;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

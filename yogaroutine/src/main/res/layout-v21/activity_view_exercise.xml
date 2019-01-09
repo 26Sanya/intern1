@@ -21,13 +21,11 @@
         android:textColor="@android:color/white"
         android:textSize="24sp"/>
 
-        <pl.droidsonroids.gif.GifImageView
+        <ImageView
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:id="@+id/image_detail"
             android:layout_gravity="center"
-            android:src="@drawable/adho_mukha_svanasana"
-            android:background="@drawable/adho_mukha_svanasana"
             />
 
     <Button android:layout_height="50dp"

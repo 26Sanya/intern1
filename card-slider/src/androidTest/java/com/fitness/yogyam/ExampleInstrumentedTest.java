@@ -1,4 +1,4 @@
-package com.sanya.yogyam;
+package com.fitness.yogyam;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

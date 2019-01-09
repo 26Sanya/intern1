@@ -1,4 +1,4 @@
-package com.sanya.yogyam.v2.simple.utils;
+package com.fitness.yogyam.v2.simple.utils;
 
 import android.graphics.Bitmap;
 import android.util.LruCache;

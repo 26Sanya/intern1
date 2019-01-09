@@ -2,6 +2,7 @@ package Adapter;
 
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,8 +10,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.sanya.yogyam.examples.simple.R;
-import com.sanya.yogyam.examples.simple.ViewExerciseActivity;
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
+import com.fitness.yogyam.v2.simple.R;
+import com.fitness.yogyam.v2.simple.ViewExerciseActivity;
+
 
 import java.util.List;
 
@@ -43,7 +47,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewHolder
 
     @Override
     public void onBindViewHolder(RecyclerViewHolder holder, int position) {
-        holder.image.setImageResource(exerciseList.get(position).getImageId());
+       // holder.image.setImageBitmap(exerciseList.get(position).getImageId());
+        Glide.with(context).load(exerciseList.get(position).getImageId())
+                .apply(new RequestOptions().placeholder(R.drawable.loading))
+                .into(holder.image);
         holder.name.setText(exerciseList.get(position).getName());
 
         holder.setItemClickListener(new ItemClickListener() {

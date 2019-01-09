@@ -1,4 +1,4 @@
-package com.sanya.yogyam;
+package com.fitness.yogyam;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.sanya.yogyam;
+package com.fitness.yogyam;
 
 import android.graphics.PointF;
 import android.support.annotation.NonNull;

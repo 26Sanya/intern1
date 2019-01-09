@@ -69,8 +69,8 @@
             android:layout_marginStart="@dimen/recycler_view_left_offset"
             android:clipChildren="false"
             android:overScrollMode="never"
-            app:layoutManager="com.sanya.yogyam.CardSliderLayoutManager"
-            app:viewUpdater="com.sanya.yogyam.examples.simple.cards.CardsUpdater"/>
+            app:layoutManager="com.fitness.yogyam.CardSliderLayoutManager"
+            app:viewUpdater="com.fitness.yogyam.v2.simple.cards.CardsUpdater"/>
 
     </RelativeLayout>
 

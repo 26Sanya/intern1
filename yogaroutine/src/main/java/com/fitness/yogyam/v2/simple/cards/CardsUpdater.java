@@ -1,4 +1,4 @@
-package com.sanya.yogyam.v2.simple.cards;
+package com.fitness.yogyam.v2.simple.cards;
 
 import android.os.Build;
 import android.support.annotation.NonNull;
@@ -6,8 +6,8 @@ import android.support.v4.view.ViewCompat;
 import android.support.v7.widget.CardView;
 import android.view.View;
 
-import com.sanya.yogyam.CardSliderLayoutManager;
-import com.sanya.yogyam.DefaultViewUpdater;
+import com.fitness.yogyam.CardSliderLayoutManager;
+import com.fitness.yogyam.DefaultViewUpdater;
 
 public class CardsUpdater extends DefaultViewUpdater {
 

@@ -1,4 +1,4 @@
-package com.sanya.yogyam.v2.simple;
+package com.fitness.yogyam.v2.simple;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -20,10 +20,10 @@ import android.widget.TextSwitcher;
 import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
-import com.sanya.yogyam.CardSliderLayoutManager;
-import com.sanya.yogyam.CardSnapHelper;
-import com.sanya.yogyam.v2.simple.cards.SliderAdapter;
-import com.sanya.yogyam.v2.simple.utils.DecodeBitmapTask;
+import com.fitness.yogyam.CardSliderLayoutManager;
+import com.fitness.yogyam.CardSnapHelper;
+import com.fitness.yogyam.v2.simple.cards.SliderAdapter;
+import com.fitness.yogyam.v2.simple.utils.DecodeBitmapTask;
 
 
 public class MainActivity extends AppCompatActivity {

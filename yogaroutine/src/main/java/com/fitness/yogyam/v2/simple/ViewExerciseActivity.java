@@ -1,4 +1,4 @@
-package com.sanya.yogyam.v2.simple;
+package com.fitness.yogyam.v2.simple;
 
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
@@ -90,7 +90,7 @@ public class ViewExerciseActivity extends AppCompatActivity {
                 this.caution = "1.Pregnancy: If you are experienced with this pose, you can continue to practice it late into pregnancy. However, don't take up the practice of Sarvangasana after you become pregnant.\n2.Not for the persons who have the problem of diarrhea, headache, high blood pressure, menstruation, neck injury.";
             } else if (this.name.equals("Adva-Matsyasana")) {
                 this.how = "Lie down on the ground on your back in shavasana .\nNow, keep your buttocks on the floor, inhale and raise the head, shoulder, back and the upper arms off the floor arching the back and raising the chest up.\nTilt your head back and place the top of the head flat on the ground.\nNow, raise your elbows off the floor and bring your hands up just below your chest and join them at the palms with the fingers pointing straight up (or we can say, in Anjali mudra).\nThen breathe gently through the nostrils to remain longer in the pose.";
-                release = "When you think itâ€™s enough for you or you feel tired then come back to shavasana.";
+                release = "When you think it's enough for you or you feel tired then come back to shavasana.";
                 this.caution = "1.This asana can also be tried with padamasana but the beginners should not do this with padamasana because first one will be easier for the beginners.\n2.The persons who have migraine, high or low blood pressure and serious neck or back injury.";
             } else if (this.name.equals("Ardha-Matsyendrasana")) {
                 this.how = "Sit down on the floor with your legs straight out in front of you and buttocks on the floor.\nBend the right leg at the knee and place the heel tight at the perineum.\nKeep the foot of the left leg by the side of the right thigh near the knee.\nNow, bring the right hand round the outer side of the left knee passing between the chest and the knee and catch hold of the left big toe.\nThe right shoulder blade rests on the outer side of the left knee.\nTake the left hand round the back and try to catch the right thigh. Now look back over the left shoulder.\nNow, keep your trunk in vertical position and keep in the pose for a while.";
@@ -227,6 +227,7 @@ public class ViewExerciseActivity extends AppCompatActivity {
                 Intent i=new Intent(this,eyeneck.class);
                 startActivity(i);
                 finish();
+
             } else if (this.name.equals("Sitali")) {
                 this.how = "Purse your lips into a tiny \"o\" shape, like a reaching kiss. Keep your tongue floating inside, so that it doesn't touch teeth or gums?\n" +
                         "Slowly inhale through your mouth, feel the cooled air. If your mouth becomes dry, be patient and slow it down more.\n" +
@@ -502,6 +503,7 @@ public class ViewExerciseActivity extends AppCompatActivity {
             this.title.setText(this.name);
             this.explainhow.setText(this.how);
             this.explain.setText(this.release);
+            if(this.name!="Neck and Eye exercises" )
         Glide.with(this).load(url)
                 .apply(new RequestOptions().placeholder(R.drawable.loading))
                 .into(imageDetail);

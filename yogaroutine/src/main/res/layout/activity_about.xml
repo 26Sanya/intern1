@@ -80,7 +80,8 @@
         android:layout_width="fill_parent"
         android:id="@+id/textView32"
         android:layout_marginStart="15.0dip"
-        android:text="YOGYAM encourages you to make yoga part of your everyday routine.This is a fitness app that’s inspired by yoga.It’ll show you more than 30 diseases,on the basis of which more than 100 YOGA ASANAS or POSES are listed.\nThis application also focuses on the fact that not all postures are recommendable for all the individuals.It includes a CAUTION feature that enables the user to know when NOT to practice any particular Asanas.\nCombine yoga with other exercises and breathing techniques to get the most out of your practice.\nThis is an initial version which gives information about the asanas and in what diseases they can be effective.The next version will aim to improve the understanding of the postures for the users." android:layout_marginBottom="20.0dip" android:textColor="#ff607d8b" android:textSize="15.0sp" android:layout_below="@id/textView2" android:layout_marginLeft="22.0dip"/>
+        android:text="YOGYAM encourages you to make yoga part of your everyday routine.This is a fitness app that’s inspired by yoga.It’ll show you more than 30 diseases,on the basis of which more than 100 YOGA ASANAS or POSES are listed.\nThis application also focuses on the fact that not all postures are recommendable for all the individuals.It includes a CAUTION feature that enables the user to know when NOT to practice any particular Asanas.\nCombine yoga with other exercises and breathing techniques to get the most out of your practice."
+        android:layout_marginBottom="20.0dip" android:textColor="#ff607d8b" android:textSize="15.0sp" android:layout_below="@id/textView2" android:layout_marginLeft="22.0dip"/>
 
 </RelativeLayout>
 

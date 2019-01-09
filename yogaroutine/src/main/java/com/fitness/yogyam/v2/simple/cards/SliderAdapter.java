@@ -1,4 +1,4 @@
-package com.sanya.yogyam.v2.simple.cards;
+package com.fitness.yogyam.v2.simple.cards;
 
 
 import android.support.v7.widget.RecyclerView;
@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.sanya.yogyam.v2.simple.R;
+import com.fitness.yogyam.v2.simple.R;
 
 public class SliderAdapter extends RecyclerView.Adapter<SliderCard> {
 

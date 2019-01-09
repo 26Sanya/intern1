@@ -6,22 +6,24 @@ package Model;
 
 public class Exercise {
 
-    private int imageId;
+    private String url;
 
     private String name;
 
-    public Exercise(int imageId, String name) {
-        this.imageId = imageId;
+    public Exercise(String url, String name) {
+        this.url = url;
         this.name = name;
     }
 
-    public int getImageId() {
-        return imageId;
+    public String getImageId() {
+        return url;
     }
 
-    public void setImageId(int imageId) {
-        this.imageId = imageId;
+
+    public void setImageId(String url) {
+        this.url = url;
     }
+
 
     public String getName() {
         return name;
